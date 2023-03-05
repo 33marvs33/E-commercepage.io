@@ -801,32 +801,10 @@ header {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .attribution {
   font-size: 11px;
   text-align: center;
+ background-color: var(--cart-bg);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
