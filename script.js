@@ -124,7 +124,7 @@ prevBtn.addEventListener('click', () => {
     }else {
         return
     }
-    changeImg.setAttribute('src', `/images/image-product-${prevNext}.jpg`)
+    changeImg.setAttribute('src', `image-product-${prevNext}.jpg`)
 })
 nextBtn.addEventListener('click', () => {
     if(prevNext < 4){
@@ -132,7 +132,7 @@ nextBtn.addEventListener('click', () => {
     }else {
         return
     }
-    changeImg.setAttribute('src', `/images/image-product-${prevNext}.jpg`)
+    changeImg.setAttribute('src', `image-product-${prevNext}.jpg`)
 })
 
 let num = 1;
@@ -161,7 +161,7 @@ prev.addEventListener('click', () => {
     }else {
         return
     }
-    change.setAttribute('src', `/images/image-product-${num}.jpg`)
+    change.setAttribute('src', `image-product-${num}.jpg`)
 })
 next.addEventListener('click', () => {
     if(num < 4){
@@ -169,5 +169,5 @@ next.addEventListener('click', () => {
     }else {
         return
     }
-    change.setAttribute('src', `/images/image-product-${num}.jpg`)
+    change.setAttribute('src', `image-product-${num}.jpg`)
 })
